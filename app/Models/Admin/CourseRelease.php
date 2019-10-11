@@ -10,7 +10,7 @@ class CourseRelease extends Model implements Auditable
 {
     use \OwenIt\Auditing\Auditable;
 
-    public $fillable = ['id', 'course_id', 'status_release_id', 'level', 'date_schedule_start', 'date_start', 'date_schedule_end', 'date_end', 'vacancies', 'vacancies_completed', 'duration', 'workload', 'requeriments', 'regime', 'observation', 'ata_abertura_curso'];
+    public $fillable = ['id', 'course_id', 'status_release_id', 'level', 'date_schedule_start', 'date_start', 'date_schedule_end', 'date_end', 'vacancies', 'vacancies_completed', 'duration', 'workload', 'requirements', 'regime', 'observation', 'ata_abertura_curso'];
 
     public function course()
     {
