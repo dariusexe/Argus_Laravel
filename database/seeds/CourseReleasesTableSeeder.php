@@ -22,7 +22,7 @@
              'vacancies'=>'100',
              'duration'=>'200',
              'workload'=>'1510',
-             'requeriments'=>'Conforme critérios de seleção definidos pelo Comando da PMDF nos editais relativos ao concurso público.',
+             'requirements'=>'Conforme critérios de seleção definidos pelo Comando da PMDF nos editais relativos ao concurso público.',
              'regime'=>'Presencial conforme Projeto Pedagógico do Curso (até 20% da carga horária em EaD).',
              'observation'=>'',
              'created_at'=>now(),
